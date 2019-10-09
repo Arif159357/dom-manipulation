@@ -20,4 +20,8 @@ function addColorPurple(event){
     
 }
 
+function getGoogle(event){
+    window.location.href = "https://www.google.com/"
+}
+
 /* Task 4 using jQuery */
