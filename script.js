@@ -9,6 +9,15 @@ function addText(event){
     var div = document.getElementById("task2a")
     div.appendChild(p)
 }
-
+function addColorYellow(event){
+    var color = document.getElementsByTagName("body")[0]
+    color.style.backgroundColor = event.target.id
+    
+}
+function addColorPurple(event){
+    var color = document.getElementsByTagName("body")[0]
+    color.style.backgroundColor = event.target.id
+    
+}
 
 /* Task 4 using jQuery */
