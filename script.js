@@ -25,3 +25,28 @@ function getGoogle(event){
 }
 
 /* Task 4 using jQuery */
+
+$('#addText').click(function(e){
+    let para = $("<p>").text("hello world");
+    $('#task4a').append(para);
+});
+
+// Task 4b
+$('.btn1').click(function(e){
+    $('body').css('background-color', e.target.innerText.toLowerCase())
+})
+
+// Task 4c
+
+$('#addNum').click(function(e){
+    let first = parseInt($('#first').val())
+    let sec =  parseInt($('#second').val())
+    let add = first + sec
+    $('#sum').append(add)
+
+})
+
+
+
+
+
